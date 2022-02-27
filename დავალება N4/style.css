@@ -51,7 +51,6 @@ h1{
 
 .container{
     display: flex;
-    justify-content: space-between;
 }
 .size{
     width: 200px;
