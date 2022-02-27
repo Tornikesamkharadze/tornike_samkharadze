@@ -1,0 +1,90 @@
+body{
+    background-repeat: no-repeat;
+    background-size: 145%;
+}
+
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    padding: 0;
+    margin:0;
+    top:0;
+    left:0;
+    display: flex;
+    background-color: rgb(60, 121, 161);
+    width: 100%;
+}
+
+ul img{
+    height: 45px;
+    width: 45px;
+}
+
+.toko1 img{
+    width: 500px;
+    height: 500px;
+    border-radius: 15px;
+    border:solid 2px white;
+}
+
+li a{
+    padding: 15px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-style:italic;
+    border-radius: 4px;
+    margin-left: 14px;
+}
+
+li a:hover{
+    background-color: aqua;   
+}
+
+.active{
+    background-color: red;
+}
+
+h1{
+    margin-top: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.size{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border-radius: 14px;
+    margin-bottom:10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.size img{
+    height:180px;
+    width: 180px;
+    border-radius: 15px;
+}
+.toko p{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    padding: 15px;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+.toko2 p{
+    font-size: 30px;
+    padding: 15px;
+    font-style: helvetica;
+    line-height: 36px;
+    font-weight: 600;
+    color: red;
+}
