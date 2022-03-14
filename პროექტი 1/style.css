@@ -513,26 +513,30 @@ li a{
     text-decoration: none;
     color: #00AEDC;
 }
-
-.blog1{
+.mainbog{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 190px;
+    justify-content: center;
+    align-items: center;
 }
 
-.btimg{
-    width: 148px;
-    height: 100px;
-}
-
-.blog1_right{
+.img_text1{
     display: flex;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    align-items: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(25, 14, 47, 0.8);
 }
-.blog1_right p{
-    margin-left: 86px;
-    margin-top: 64px;
+
+.bog1 h2{
+    margin-left: 50px;
+    margin-top: 160px;
+}
+
+.bog1{
+    margin-left: 24px;
 }
 
 /* contact.htm */
