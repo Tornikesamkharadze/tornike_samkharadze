@@ -1,0 +1,373 @@
+body {
+  margin: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-color: #00806b;
+}
+
+.logo_ul {
+  display: flex;
+}
+
+.logo_ul img {
+  margin-left: 183px;
+  margin-top: 9px;
+  margin-bottom: 7px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  overflow: hidden;
+  margin-left: 114px;
+  font-size: 24px;
+}
+
+li a {
+  display: block;
+  margin-right: 49px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover {
+  text-decoration: underline #0788d1;
+}
+
+.right {
+  margin-right: 203px;
+  margin-top: 50px;
+}
+
+.right a {
+  padding: 23px 84px 20px 81px;
+  background-color: #0788d1;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.heritage {
+  display: flex;
+  justify-content: space-around;
+}
+.h1_p h1 {
+  margin-top: 170px;
+  margin-bottom: 40px;
+  font-size: 54px;
+  line-height: 59px;
+}
+
+.h1_p p {
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.img_play {
+  display: flex;
+  margin-top: 50px;
+}
+.img_play p {
+  color: #000000;
+  font-weight: 600;
+  margin-left: 18px;
+}
+
+.book p {
+  margin-top: 68px;
+  margin-bottom: 69px;
+  font-weight: 600;
+}
+
+.background {
+  position: absolute;
+  width: 1300px;
+  height: 120px;
+  background-color: #00806b;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.background a {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+}
+
+.color {
+  padding: 27px 72px 20px 79px;
+  background-color: #0788d1;
+  border-radius: 15px;
+}
+
+.fourcircle {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #0788d1;
+  margin-top: 77px;
+}
+.car {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 102px;
+  height: 100px;
+  background-color: #8e8c8a;
+  border-radius: 100px;
+}
+
+.text_center p {
+  color: white;
+  font-size: 20px;
+}
+.text_center {
+  margin-top: 87px;
+  margin-bottom: 72px;
+  color: white;
+  font-size: 24px;
+  transition: 1s;
+}
+
+.text_center:hover {
+  margin-top: -40px;
+  background-color: #00806b;
+  padding: 50px;
+}
+
+.speciality {
+  display: flex;
+  justify-content: space-between;
+}
+.speciality h1 {
+  font-size: 36px;
+  margin-left: 195px;
+  margin-top: 84px;
+}
+
+.sidelist {
+  margin-right: 176px;
+}
+
+.sidelist a {
+  padding: 0;
+  margin-left: 21px;
+}
+.sidelist img {
+  margin-top: 84px;
+}
+
+.contsturction {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 58px;
+}
+.consultation {
+  width: 394px;
+  height: 558px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0788d1;
+}
+
+.consultation h3 {
+  font-size: 30px;
+}
+
+.p_a p,
+a {
+  font-size: 20px;
+  color: white;
+  padding: 21px 39px 21px;
+}
+
+.consultation a {
+  text-decoration: none;
+}
+.p_a {
+  display: flex;
+}
+
+.p_a p {
+  margin: 0;
+}
+
+.acolor {
+  background-color: #00806b;
+}
+
+.covid {
+  background-color: #00806b;
+  text-align: center;
+  margin-top: 84px;
+}
+
+.covid h4 {
+  font-size: 36px;
+  color: white;
+}
+
+.co {
+  padding-top: 39px;
+  padding-bottom: 64px;
+}
+
+.imgp p {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+
+.imgp a {
+  margin: 0;
+}
+.covid1 {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 120px;
+  margin-right: 122px;
+}
+
+.buton {
+  padding-top: 80px;
+  padding-bottom: 114px;
+}
+
+.buton a {
+  text-decoration: none;
+  padding: 30px 50px 30px 61px;
+  background-color: #0788d1;
+  border-radius: 10px;
+}
+
+.main_provide {
+  margin-top: 60px;
+  background-color: #00806b;
+}
+
+.provide {
+  display: flex;
+  justify-content: space-around;
+}
+
+.provide_img {
+  margin-top: 88px;
+}
+
+.provide_img {
+  display: flex;
+}
+
+.provide_text {
+  text-align: center;
+  margin-left: 37px;
+}
+
+.provide_text h2 {
+  color: white;
+  font-size: 36px;
+  margin-top: 98px;
+}
+
+.provide_text p {
+  color: white;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+.provide_button {
+  display: flex;
+  margin-left: 115px;
+}
+
+.fastest {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 191px;
+}
+
+.fastest_test {
+  display: flex;
+}
+
+.fastest_text {
+  text-align: center;
+  margin-right: 30px;
+}
+
+.fastest_text h1 {
+  margin-right: 30px;
+  font-size: 36px;
+  color: white;
+}
+
+.fastest_text p {
+  color: white;
+  font-size: 24px;
+  line-height: 28.13px;
+}
+
+.fastest_button {
+  display: flex;
+  margin-left: 40px;
+}
+
+.fastest_button p {
+  margin-left: 30px;
+}
+
+.main_contact {
+  display: flex;
+  justify-content: center;
+}
+.contact_us {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #0788d1;
+  width: 1024px;
+  height: 232px;
+  margin-top: 90px;
+}
+
+.for_flex {
+  display: flex;
+}
+
+.contact_us p {
+  font-size: 24px;
+  color: white;
+}
+
+.contact_us_icon img {
+  background-color: #c4c4c4;
+  padding: 13px 18px 15px 18px;
+  border-radius: 100px;
+}
+.main_alpha {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 322px;
+}
+.alpha_hospital {
+  text-align: center;
+}
+.alpha_hospital p {
+  color: white;
+  font-size: 24px;
+}
+.seven_paragrap {
+  display: flex;
+}
+.seven_paragrap a {
+  margin-right: 30px;
+  color: white;
+  font-size: 36px;
+  text-decoration: none;
+}
